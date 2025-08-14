@@ -20,6 +20,7 @@ SUBROUTINE NOZZLEDEF(SIDE,XL,RL)
 !    Modified  : 21102013, J. Baltazar, differences lower than the tolerance for t.e.           !
 !    Modified  : 02122014, J. Baltazar, 2014 version 1.2                                        !
 !    Modified  : 05072017, J. Baltazar, 2017 version 1.0                                        !
+!    Modified  : 14082025, J. Baltazar, 2025 version 1.0                                        !
 !-----------------------------------------------------------------------------------------------!
 USE PROPANEL_MOD
 IMPLICIT NONE
@@ -41,8 +42,8 @@ IF (NRNI == NRNO) THEN
    TNN=0.D0
    FNN=0.D0
 !-----------------------------------------------------------------------------------------------!
-   TNN(:)=0.5D0*(YOL(:)-YIL(:))
-   FNN(:)=0.5D0*(YOL(:)+YIL(:))
+   TNN(1:NRNI)=0.5D0*(YOL(1:NRNI)-YIL(1:NRNI))
+   FNN(1:NRNI)=0.5D0*(YOL(1:NRNI)+YIL(1:NRNI))
 !-----------------------------------------------------------------------------------------------!
 !    Round Trailing Edge of the Nozzle                                                          !
 !-----------------------------------------------------------------------------------------------!
