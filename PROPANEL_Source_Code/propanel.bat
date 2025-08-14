@@ -13,11 +13,11 @@ set FFLAGS=/check:all /traceback /fpe:0 /warn:all /Od /fp:precise
 rem ===== Clean =====
 if not exist Code mkdir Code
 del /q Code\*.* 2>nul
-del /q ProPanel2021_v1.0_debug.exe 2>nul
+del /q ProPanel2025_v1.0_debug.exe 2>nul
 
 rem ===== Compile (Base) =====
 %FC% /c %FFLAGS% Base\propanel_mod.f90 || goto :err
-%FC% /c %FFLAGS% Base\ProPanel2021_v1.0.f90 || goto :err
+%FC% /c %FFLAGS% Base\ProPanel2025_v1.0.f90 || goto :err
 %FC% /c %FFLAGS% Base\delvars.f90 || goto :err
 %FC% /c %FFLAGS% Base\progress.f90 || goto :err
 
@@ -67,10 +67,10 @@ rem ===== Stage outputs =====
 move /y *.obj Code >nul
 move /y *.mod Code >nul 2>nul
 move /y *_genmod.f90 Code >nul 2>nul
-if exist ProPanel2021_v1.0_debug.exe copy /y ProPanel2021_v1.0_debug.exe Code >nul
+if exist ProPanel2025_v1.0_debug.exe copy /y ProPanel2025_v1.0_debug.exe Code >nul
 
 echo.
-echo Build succeeded: ProPanel2021_v1.0_debug.exe
+echo Build succeeded: ProPanel2025_v1.0_debug.exe
 exit /b 0
 
 :err
