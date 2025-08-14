@@ -50,6 +50,8 @@ J. Baltazar, J. Machado, J.A.C. Falcão de Campos. Hydrodynamic Design and Analy
 
 J. Baltazar, J.A.C. Falcão de Campos, J. Bosschers. Open-Water Thrust and Torque Predictions of a Ducted Propeller System With a Panel Method. Proceedings of the Second International Symposium on Marine Propulsors, Hamburg, Germany, 2011. https://www.researchgate.net/publication/269222641_Open-Water_Thrust_and_Torque_Predictions_of_a_Ducted_Propeller_System_With_a_Panel_Method
 
+J. Baltazar. Leading-Edge Vortex Flow Modelling Around Delta Wings Using a Boundary Element Method. Proceedings of the  III Conferência Nacional em Mecânica dos Fluidos, Termodinâmica e Energia, Bragança, Portugal, 2009. https://www.researchgate.net/publication/268686130_Leading-Edge_Vortex_Flow_Modelling_Around_Delta_Wings_Using_a_Boundary_Element_Method
+
 J. Baltazar, J.A.C. Falcão de Campos. A Numerical Study on the Application of BEM to Steady Cavitating Potential Flows on Lifting Surfaces. Proceedings of the  Congreso de Métodos Numéricos en Ingeniería, Barcelona, Spain, 2009. https://www.researchgate.net/publication/269222646_A_Numerical_Study_on_the_Application_of_BEM_to_Steady_Cavitating_Potential_Flows_on_Lifting_Surfaces
 
 J. Baltazar, J.A.C. Falcão de Campos. A Numerical Study on the Iterative Techniques to Solve Partial Cavitation on Marine Propellers Using BEM. Proceedings of the International Conference on Computational Methods in Marine Engineering, Trondheim, Norway, 2009. https://www.researchgate.net/publication/269222818_A_Numerical_Study_on_the_Iterative_Techniques_to_Solve_Partial_Cavitation_on_Marine_Propellers_Using_BEM
@@ -115,8 +117,6 @@ J. Baltazar, J.A.C. Falcão de Campos. Prediction of Sheet Cavitation on Marine 
 J. Baltazar, J.A.C. Falcão de Campos. Potential Flow Modelling of Wind and Tidal Turbines with a Panel Method. INORE 2011 Symposium, 2011. https://www.researchgate.net/publication/336852577_Potential_Flow_Modelling_of_Wind_and_Tidal_Turbines_with_a_Panel_Method
 
 J. Baltazar, J.A.C. Falcão de Campos. Hydrodynamic Analysis of a Marine Current Turbine with a Boundary Element Method. INORE 2010 Symposium, 2010. https://www.researchgate.net/publication/336852835_Hydrodynamic_Analysis_of_a_Marine_Current_Turbine_with_a_Boundary_Element_Method
-
-J. Baltazar. Leading-Edge Vortex Flow Modelling Around Delta Wings Using a Boundary Element Method. Proceedings of the  III Conferência Nacional em Mecânica dos Fluidos, Termodinâmica e Energia, Bragança, Portugal, 2009. https://www.researchgate.net/publication/268686130_Leading-Edge_Vortex_Flow_Modelling_Around_Delta_Wings_Using_a_Boundary_Element_Method
 
 J. Baltazar, J.A.C. Falcão de Campos. Potential Flow Calculations on Marine Current Turbines with a Boundary Element Method. INORE 2009 Sympoisum, 2009. https://www.researchgate.net/publication/336852572_Potential_Flow_Calculations_on_Marine_Current_Turbines_with_a_Boundary_Element_Method
 
