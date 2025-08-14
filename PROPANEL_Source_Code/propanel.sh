@@ -2,10 +2,10 @@
 # clean
 mkdir -p Code
 rm -f Code/*.*
-rm -f ProPanel2021_v1.0_debug.out
+rm -f ProPanel2025_v1.0_debug.out
 # Source Folder
 ifort -c -check bounds -traceback -fltconsistency -fpe0 Base/propanel_mod.f90
-ifort -c -check bounds -traceback -fltconsistency -fpe0 Base/ProPanel2021_v1.0.f90
+ifort -c -check bounds -traceback -fltconsistency -fpe0 Base/ProPanel2025_v1.0.f90
 ifort -c -check bounds -traceback -fltconsistency -fpe0 Base/delvars.f90
 ifort -c -check bounds -traceback -fltconsistency -fpe0 Base/progress.f90
 # Grids Folder
@@ -44,9 +44,9 @@ ifort -c -check bounds -traceback -fltconsistency -fpe0 Linpack/cubspl.f
 ifort -c -check bounds -traceback -fltconsistency -fpe0 Linpack/ppvalu.f
 ifort -c -check bounds -traceback -fltconsistency -fpe0 Linpack/interv.f
 # Executable
-ifort -o ProPanel2021_v1.0_debug.out *.o
+ifort -o ProPanel2025_v1.0_debug.out *.o
 mv *.o Code
 mv *.mod Code
-if [ -f ProPanel2021_v1.0_debug.out ]; then
-   cp ProPanel2021_v1.0_debug.out Code
+if [ -f ProPanel2025_v1.0_debug.out ]; then
+   cp ProPanel2025_v1.0_debug.out Code
 fi
